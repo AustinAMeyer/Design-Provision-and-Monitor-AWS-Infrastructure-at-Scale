@@ -1,0 +1,14 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2642.56,31710.72,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (1000 GB), Instance type (m5.4xlarge)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,581.95,6983.40,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (100 GB), Instance type (t2.xlarge)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,1784.85,21418.20,USD,"Number of Network Load Balancers (2), Processed bytes per NLB for TCP (100 GB per hour), Average number of new TCP connections (13 per second), Average TCP connection duration (30 minutes), Processed bytes per NLB for UDP (100 GB per hour), Average number of new UDP Flows (13 per second), Average UDP Flow duration (30 minutes)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,40.95,491.40,USD,S3 Standard storage (900 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,460.71,5528.52,USD,"DT Inbound: Internet (5 TB per month), DT Outbound: Internet (5 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,680.8,8169.60,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1500 GB), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,2496.6,29959.20,USD,Number of NAT Gateways (1)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
