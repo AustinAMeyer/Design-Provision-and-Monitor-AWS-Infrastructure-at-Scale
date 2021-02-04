@@ -1,5 +1,7 @@
 # AWS Cloud Architect Project: Design, Provision and Monitor AWS Infasructure at Scale
 
+I have included the screenshots and links to my responses below.
+
 ## Task 1: Create AWS Architecture Schematics
 ### Part 1
 You have been asked to plan and provision a cost-effective AWS infrastructure for a new social media application development project for 50,000 single-region users. The project requires the following AWS infrastructure and services. Please include your name and label all elements of the infrastructure on the diagram.
@@ -20,6 +22,8 @@ You have been asked to plan and provision a cost-effective AWS infrastructure fo
 
 Use LucidChart or a similar diagramming application to create your schematic. Export your schematic as a PDF and save as Udacity_Diagram_1.pdf.
 
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Diagrams/Udacity_Diagram_1.png "Udacity_Diagram_1")
+
 ### Part 2
 You have been asked to plan a SERVERLESS architecture schematic for a new application development project. The project requires the following AWS infrastructure and services.
 
@@ -31,19 +35,34 @@ You have been asked to plan a SERVERLESS architecture schematic for a new applic
 * API Gateway
 * DynamoDB
 * S3 Storage
-* Export your schematic as a PDF and save as Udacity_Diagram_2.pdf
+
+Export your schematic as a PDF and save as Udacity_Diagram_2.pdf
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Diagrams/Udacity_Diagram_2.png "Udacity_Diagram_1")
 
 ## Task 2: Calculate Infrastructure Costs
 Use the AWS Pricing Calculator to estimate how much it will cost to run the services in your Part 1 diagram for one month.
 
-* Target a monthly estimate between $8,000-$10,000.
-* Be mindful of AWS regions when you are estimating costs.
-* Export the estimate as a CSV file named Initial_Cost_Estimate.csv.
-* Return to the AWS Pricing Calculator and reconfigure your estimates for the following scenarios:
+1. Target a monthly estimate between $8,000-$10,000.
+   * Be mindful of AWS regions when you are estimating costs.
+   * Export the estimate as a CSV file named Initial_Cost_Estimate.csv.
+   
+Here is my initial cost estimate: [Initial_Cost_Estimate.csv](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Estimates/Initial_Cost_Estimate.csv)
+   
+ Return to the AWS Pricing Calculator and reconfigure your estimates for the following scenarios:
+1.  Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What services will you modify to meet this new budget? 
 
-* Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What services will you modify to meet this new budget? Export the updated costs in a CSV file named Reduced_Cost_Estimate.csv and write up a brief narrative of the changes you made in the CSV file below the cost estimate.
-* Your budget has been increased to $20,000. What resources will you add and why?
-* Think about where to add redundancy and how to improve performance. Re-configure your estimate to a monthly invoice of $18K-20K. Export the updated costs to a CSV file named Increased_Cost Estimate.csv and write up a brief narrative of the changes you made in the CSV file below the cost estimate.
+Here is my cost reduced estimate: [Reduced_Cost_Estimate.csv](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Estimates/Reduced_Cost_Estimate.csv)
+
+Here is my explaination of the cost reduction: [Reduced_Cost_Estimate.docx](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Estimates/Reduced_Cost_Estimate.docx)
+
+Export the updated costs in a CSV file named Reduced_Cost_Estimate.csv and write up a brief narrative of the changes you made in the CSV file below the cost estimate.
+2.  Your budget has been increased to $20,000. What resources will you add and why?
+   * Think about where to add redundancy and how to improve performance. Re-configure your estimate to a monthly invoice of $18K-20K. Export the updated costs to a CSV file named Increased_Cost_Estimate.csv and write up a brief narrative of the changes you made in the CSV file below the cost estimate.
+
+Here is my Increased cost estimate: [Icreased_Cost_Estimate.csv](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Estimates/Increased_Cost%20Estimate.csv)
+
+Here is my explaination of the cost Increase: [Reduced_Cost_Estimate.docx](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Estimates/Increased_Cost%20Estimate.docx)
 
 
 ## Task 3: Configure Permissions.
@@ -65,11 +84,15 @@ In order to complete this task, please ensure your IAM users have been granted a
 9. Download the portion of the CloudTrail log that shows the entire Task 3 timeframe and save it as UdacityCloudTrailLog.csv.
 10. Before Logging off, return to the CloudTrail configuration page. Disable S3 logging.
 
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/udacity_password_policy.png "udacity_password_policy.png")
+
 ## Task 4: Set up Cost Monitoring
 1. Configure CloudWatch billing alarm
 2. Set up a Billing alarm with a $5 threshold
 3. Set up notification so that you get an email alert when the alarm is triggered.
 4. Save a screenshot of the CloudWatch Alarms page showing the new alarm with a green OK status as CloudWatch_alarm.png or CloudWatch_alarm.jpg
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/CloudWatch_alarm.png "CloudWatch_alarm.png")
 
 ## Task 5 : Use Terraform to Provision AWS Infrastructure
 
