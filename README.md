@@ -1,6 +1,6 @@
 # AWS Cloud Architect Project: Design, Provision and Monitor AWS Infasructure at Scale
 
-I have included the screenshots and links to my responses below.
+I have included the screenshots and links to my project answers below.
 
 ## Task 1: Create AWS Architecture Schematics
 ### Part 1
@@ -106,9 +106,13 @@ In order to complete this task, please ensure your IAM users have been granted a
    * 4 AWS t2.micro EC2 instances named Udacity T2
    * 2 m4.large EC2 instances named Udacity M4
 3. Run Terraform. 
-4. Take a screenshot of the 6 EC2 instances in the AWS console and save it as `Terraform_1_1`. 
+4. Take a screenshot of the 6 EC2 instances in the AWS console and save it as `Terraform_1_1.png`. 
 5. Use Terraform to  delete the 2 m4.large instances 
-6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
+6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2.png`
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_1_1.png "Terraform_1_1.png")
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_1_2.png "Terraform_1_2.png")
 
 ### Exercise 2
 
@@ -121,3 +125,16 @@ In order to complete this task, please ensure your IAM users have been granted a
   
 2. Take a screenshot of the EC2 instances page
 3. Take a screenshot of the VPC page 
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_2_1.png "Terraform_2_1.png")
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_2_2.png "Terraform_2_2.png")
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_2_3.png "Terraform_2_3.png")
+
+## Task 6: Destroy the Infrastructure using Terraform and prepare for submission
+1. Destroy all running provisioned infrastructure using Terraform so as not to incur unwanted charges.
+2. Take a screenshot of the EC2 instances page and label it Terraform_destroyed.png or Terraform_destroyed.jpg .
+3. Upload Terraform files, screenshots, schematics and CSV files to your GitHub repo
+
+![picture alt](https://github.com/AustinAMeyer/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale/blob/master/Screenshots/Terraform_destroyed.png "Terraform_destroyed.png")
